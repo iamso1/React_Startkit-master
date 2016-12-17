@@ -36,7 +36,7 @@ class Panel extends Component {
       <div>
          <div>
             <Show num={counterReducer} />  
-            <Btn increment={counterAction.incrementAction}/>
+            <Btn increment={counterAction.incrementAction} decrement={counterAction.decrementAction}/>
          </div>
       </div>
     );

@@ -4,3 +4,9 @@ export const incrementAction=()=>{
         number:1
     }
 }
+export const decrementAction=()=>{
+    return {
+        type:'DECREMENT',
+        number:1
+    }
+}
